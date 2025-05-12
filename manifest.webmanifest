@@ -2,8 +2,8 @@
   "name": "Joyce's App",
   "short_name": "Joyce's App",
   "description": "Github Page for Joyce's App",
-  "scope": "/ICS2O-UNIT-6-01-JOYCE-NKENGBEZA/",
-  "start_url": "/ICS2O-UNIT-6-01-Joyce-Nkengbeza/",
+  "scope": "/ICS2O-Unit-6-01-Joyce-Nkengbeza/",
+  "start_url": "/ICS2O-Unit-6-01-Joyce-Nkengbeza/",
   "permissions": [ 
     "unlimitedStorage",
     "fullscreen"
