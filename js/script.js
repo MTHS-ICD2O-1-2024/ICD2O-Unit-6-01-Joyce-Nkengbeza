@@ -16,8 +16,7 @@ if (navigator.serviceWorker) {
 }
 
 function calculate() {
-
- // input
+  // input
   let firstNumber = parseFloat(document.getElementById("numberone").value)
   const secondNumber = parseFloat(document.getElementById("numbertwo").value)
   let answer = 0
@@ -25,9 +24,8 @@ function calculate() {
   // process
   while (firstNumber >= 1) {
     answer = answer + secondNumber
-  firstNumber = firstNumber - 1;
+    firstNumber = firstNumber - 1
   }
   // output
-  document.getElementById("results").innerHTML =
-  'The number is: ' + answer
+  document.getElementById("results").innerHTML = "The number is: " + answer
 }
