@@ -1,10 +1,10 @@
 // Copyright (c) 2020 Mr. Coxall All rights reserved
 //
 // Created by: Joyce Nkengbeza
-// Created on: April 2025
+// Created on: Feb 2025
 // This file contains the JS functions for index.html
+'use strict'
 
-"use strict"
 
 /**
  * Check servie worker.
@@ -14,9 +14,11 @@ if (navigator.serviceWorker) {
     scope: "/ICD2O-Unit-6-01-Joyce-Nkengbeza/",
   })
 }
+ //This function multiples numbers
 
 function calculate() {
-  // input
+
+ // input
   let firstNumber = parseFloat(document.getElementById("numberone").value)
   const secondNumber = parseFloat(document.getElementById("numbertwo").value)
   let answer = 0
@@ -24,8 +26,9 @@ function calculate() {
   // process
   while (firstNumber >= 1) {
     answer = answer + secondNumber
-    firstNumber = firstNumber - 1
+  firstNumber = firstNumber - 1;
   }
   // output
-  document.getElementById("results").innerHTML = "The number is: " + answer
+  document.getElementById("results").innerHTML =
+  'The number is: ' + answer
 }
